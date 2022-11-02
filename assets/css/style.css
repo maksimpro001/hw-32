@@ -1,0 +1,123 @@
+.container {
+  margin: auto;
+  max-width: 1640px;
+  height: 100%;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+.header__logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+}
+.header__top-nav {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+.header__top-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fefefe;
+  background-color: #000;
+  border-radius: 10px;
+}
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  align-items: flex-end;
+  position: relative;
+  z-index: -2;
+}
+.header__box-content {
+  padding: 100px;
+}
+.header__box-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120px;
+  width: 200px;
+  position: relative;
+}
+.header__box-title::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/Rectangle.png);
+  width: 500px;
+  height: 130px;
+  bottom: 125px;
+  left: -30px;
+  z-index: -1;
+}
+.header__box-undertitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #191818;
+  padding: 40px 0;
+}
+.header__box-wraper {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  justify-content: space-between;
+}
+.header__box-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+  width: 220px;
+  height: 80px;
+  background: #000000;
+  border-radius: 10px;
+}
+.header__box-img {
+  width: 850px;
+  height: 750px;
+}
+
+.beetwen {
+  margin-top: 60px;
+  background-color: #ebd96b;
+  height: 200px;
+}
+.beetwen__wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.beetwen__img {
+}
